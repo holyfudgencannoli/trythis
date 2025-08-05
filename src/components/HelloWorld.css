@@ -12,15 +12,18 @@
 /* Extra small devices (phones, less than 576px) */
 @media screen and (max-width: 576px) {
 	#home-title-box{
-	background-color: rgb(177, 177, 115);
-	color: rgb(30, 30, 84);
-	position: relative;
-	text-align: center;
-}
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+		top: -28%;
+	}
 
-#home-title, #home-subtitle{
-	text-shadow: blanchedalmond 1px 1px;
-}
+	#home-title{
+		font-size: 2rem;
+	}
+
+	#home-subtitle{
+		font-size: 1rem;
+	}
 	
 	
 }
