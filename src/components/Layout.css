@@ -1,1 +1,13 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full screen */
+}
 
+.page-content {
+  position: relative;
+  top: 20rem;
+  font: normal 1rem 'Inter', sans-serif;
+  width: 100%;
+
+}
