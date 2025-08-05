@@ -11,28 +11,64 @@
 
 /* Extra small devices (phones, less than 576px) */
 @media screen and (max-width: 576px) {
+	#home-title-box{
+	background-color: rgb(177, 177, 115);
+	color: rgb(30, 30, 84);
+	position: relative;
+	text-align: center;
+}
+
+#home-title, #home-subtitle{
+	text-shadow: blanchedalmond 1px 1px;
+}
+	
 	
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		top: -26%;
+	}
+
+	#home-title{
+		font-size: 2rem;
+	}
+
+	#home-subtitle{
+		font-size: 1rem;
+	}
 	
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
 	
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 1024.01px) and (max-width: 1280px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
 	
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1280.01px) and (max-width: 1536px){
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
   	
 }
 
@@ -42,6 +78,12 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1536px) {
+	#home-title-box{
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+		top: -10%;
+
+	}
   	
 }
 
